@@ -35,8 +35,6 @@ async Task ReceiveMessages()
         {
             Console.WriteLine($"Error receiving messages: {ex.Message}");
         }
-
-        await Task.Delay(1000);
     }
 }
 
