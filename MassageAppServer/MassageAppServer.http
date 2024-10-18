@@ -1,0 +1,6 @@
+@MassageAppServer_HostAddress = http://localhost:5093
+
+GET {{MassageAppServer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
